@@ -1,6 +1,6 @@
 {
   "name": "@default-uploader/nextjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom NextJS loader for Default Uploader",
   "main": "index.js",
   "repository": {

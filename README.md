@@ -34,9 +34,10 @@ Next, export the loader function to the specified path (you can specify any path
 
 ```
 // src/lib/default-uploader.ts
+import defaultUploader from '@default-uploader/nextjs'
 
 export default defaultUploader(DEFAULT_UPLOADER_CLIENT_TOKEN)
 ```
 
 
-That's all. Now you have a powerful API for file transformation and you are not tied to any vendor =)
+That's all. Now you have a powerful API for file transformation, and you are not tied to any vendor =)
