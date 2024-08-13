@@ -5,14 +5,12 @@
 > You can use any package manager
 
 ```bash
-npm add @default-uploader/nextjs
+npm i @default-uploader/nextjs
 ```
 
 A client token is required to work, you can get it at this address [https://admin.defaultuploader.com/admin](https://admin.defaultuploader.com/admin)
 
 Documentation for the Default Uploader service is located at this address [https://docs.defaultuploader.com](https://docs.defaultuploader.com/#/)
-
-<br>
 
 ### Setup your App
 
@@ -38,6 +36,5 @@ import defaultUploader from '@default-uploader/nextjs'
 
 export default defaultUploader(DEFAULT_UPLOADER_CLIENT_TOKEN)
 ```
-
 
 That's all. Now you have a powerful API for file transformation, and you are not tied to any vendor =)
