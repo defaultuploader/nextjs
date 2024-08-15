@@ -1,12 +1,11 @@
 {
   "name": "@defaultuploader/nextjs-loader",
-  "version": "1.0.6",
+  "version": "1.0.12",
   "description": "Custom NextJS image loader by Default Uploader",
-  "main": "./index.js",
+  "main": "./index.cjs.js",
   "module": "./index.mjs",
   "umd:main": "./index.umd.js",
   "jsnext:main": "./index.mjs",
-  "type": "module",
   "typings": "index.d.ts",
   "engines": {
     "node": ">=14.0.0"
