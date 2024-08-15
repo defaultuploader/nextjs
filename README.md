@@ -5,7 +5,7 @@
 > You can use any package manager
 
 ```bash
-npm i @defaultuploader/nextjs
+npm i @defaultuploader/nextjs-loader
 ```
 
 A client token is required to work, you can get it at this address [https://admin.defaultuploader.com/admin](https://admin.defaultuploader.com/admin)
