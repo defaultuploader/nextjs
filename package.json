@@ -1,7 +1,7 @@
 {
-  "name": "@default-uploader/nextjs",
-  "version": "1.0.2",
-  "description": "Custom NextJS image loader for Default Uploader",
+  "name": "@defaultuploader/nextjs-loader",
+  "version": "1.0.3",
+  "description": "Custom NextJS image loader by Default Uploader",
   "main": "index.js",
   "repository": {
     "type": "git",

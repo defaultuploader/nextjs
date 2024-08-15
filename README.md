@@ -1,11 +1,11 @@
-# Default Uploader NextJS
+# NextJS image loader by Default Uploader
 
 ## Installation
 
 > You can use any package manager
 
 ```bash
-npm i @default-uploader/nextjs
+npm i @defaultuploader/nextjs
 ```
 
 A client token is required to work, you can get it at this address [https://admin.defaultuploader.com/admin](https://admin.defaultuploader.com/admin)
