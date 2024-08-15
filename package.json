@@ -1,9 +1,43 @@
 {
   "name": "@defaultuploader/nextjs-loader",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Custom NextJS image loader by Default Uploader",
   "main": "./index.js",
+  "module": "./index.mjs",
+  "umd:main": "./index.umd.js",
+  "jsnext:main": "./index.mjs",
   "type": "module",
+  "typings": "index.d.ts",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs.js",
+      "default": "./index.mjs"
+    },
+    "./index.mjs": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "default": "./index.mjs"
+    },
+    "./index.umd": {
+      "types": "./index.umd.d.ts",
+      "require": "./index.umd.js",
+      "default": "./index.umd.js"
+    }
+  },
+  "keywords": [
+    "nextjs loader",
+    "nextjs image loader",
+    "nextjs image optimizations",
+    "image optiomization"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/defaultuploader/nextjs"
@@ -12,7 +46,8 @@
   "license": "MIT",
   "scripts": {
     "test": "",
-    "public": "rollup --config rollup.config.js --configPlugin typescript & npm publish --access public"
+    "public": "rollup --config rollup.config.js --configPlugin typescript & npm publish --access public",
+    "build": "rollup --config rollup.config.js --configPlugin typescript"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^11.1.6",
