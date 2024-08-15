@@ -1,8 +1,9 @@
 {
   "name": "@defaultuploader/nextjs-loader",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Custom NextJS image loader by Default Uploader",
-  "main": "index.js",
+  "main": "./index.js",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/defaultuploader/nextjs"
@@ -10,9 +11,14 @@
   "author": "Filipkin Denis",
   "license": "MIT",
   "scripts": {
-    "test": ""
+    "test": "",
+    "public": "rollup --config rollup.config.js --configPlugin typescript & npm publish --access public"
   },
   "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^4.20.0",
+    "rollup-plugin-dts-bundle-generator": "^1.4.0",
+    "tslib": "^2.6.3",
     "typescript": "^5"
   }
 }
